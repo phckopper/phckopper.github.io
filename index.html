@@ -2,9 +2,19 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<title>phckopper</title>
+	<title>#OPAESEIS Twitter</title>
+	<script src="https://oauth.io/auth/download/latest/oauth.js"></script>
+	<script>OAuth.initialize('TotuvZvIBIfMY6akMQH6TjfuM8s');</script>
 </head>
 <body>
-	<h1>phckopper</h1>
+	<h1>#OPAESEIS</h1>
+	<button id="init" onclick="go()">Clique aqui para começar</button>
+	<script>
+		function go(){
+			OAuth.popup('twitter', function(err, result) {
+				alert(result);
+			});
+		}
+	</script>
 </body>
 </html>
