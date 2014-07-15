@@ -4,9 +4,16 @@ body {
 	background-color: #404040;
 	color: #F5F5F5;
 }
+#title {
+	margin: 100px;
+}
+#content {
+	position: relative;
+}
 footer {
 	position: fixed;
 	bottom: 10px;
+	font-weight: bold;
 	font-size: 0.75em;
 	color: #202020;
 }
