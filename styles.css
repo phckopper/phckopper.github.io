@@ -1,14 +1,17 @@
 body {
 	font-family: Helvetica, Arial, sans;
 	text-align: center;
-	background-color: #404040;
+	background-color: #353535;
 	color: #F5F5F5;
 }
 #title {
 	margin: 100px;
+	color: #202020;
+	font-size: 1.5em;
 }
 #content {
 	position: relative;
+	top: 100px;
 }
 footer {
 	position: fixed;
