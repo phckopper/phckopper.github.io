@@ -2,3 +2,7 @@ html {
 	font-family: Helvetica, Arial, sans;
 	text-align: center;
 }
+footer {
+	position: fixed;
+	bottom: 10px;
+}
