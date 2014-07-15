@@ -1,9 +1,12 @@
-html {
+body {
 	font-family: Helvetica, Arial, sans;
 	text-align: center;
+	background-color: #404040;
+	color: #F5F5F5;
 }
 footer {
 	position: fixed;
 	bottom: 10px;
 	font-size: 0.75em;
+	color: #202020;
 }
