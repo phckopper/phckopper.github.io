@@ -17,12 +17,12 @@ nav {
 }
 nav a {
 	padding: 20px 75px; 
-	color: #505050;
+	color: #151515;
 	font-weight: bold;
 	text-decoration: none;
 }
 nav a:hover {
-	color: #555555;
+	color: #202020;
 }
 
 #content {
