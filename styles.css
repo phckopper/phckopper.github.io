@@ -16,11 +16,13 @@ nav {
 }
 nav a {
 	padding: 10px 50px; 
-	color: #DDDDDD;
+	color: #BBBBBB;
+	font-weight: bold;
 }
 nav a:hover {
-	color: #CCCCCC;
+	color: #999999;
 }
+
 #content {
 	position: relative;
 	top: 100px;
