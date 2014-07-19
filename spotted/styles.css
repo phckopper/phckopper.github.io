@@ -31,13 +31,14 @@ nav a:hover {
 	padding: 20px;
 	margin: 0 auto;
 	width: 50%;
-	background-color: #121212;
+	background-color: #171717;
 }
 .post {
+	background-color: #151515;
 	padding: 10px;
 }
 .post hr {
-	width: 80%;
+	width: 200px;
 }
 footer {
 	position: fixed;
