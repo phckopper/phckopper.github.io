@@ -5,7 +5,7 @@ body {
 	color: #F5F5F5;
 }
 #title {
-	margin: 130px;
+	margin-top: 130px;
 	color: #202020;
 	font-size: 4em;
 	font-weight: bold;
@@ -32,6 +32,9 @@ nav a:hover {
 	margin: 0 auto;
 	width: 50%;
 	background-color: #171717;
+}
+#getInput input {
+	padding: 10px;
 }
 .post {
 	background-color: #151515;
