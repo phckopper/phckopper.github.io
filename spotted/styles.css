@@ -1,0 +1,43 @@
+body {
+	font-family: Helvetica, Arial, sans;
+	text-align: center;
+	background-color: #353535;
+	color: #F5F5F5;
+}
+#title {
+	margin: 130px;
+	color: #202020;
+	font-size: 4em;
+	font-weight: bold;
+}
+nav {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+nav a {
+	padding: 20px 75px; 
+	color: #151515;
+	font-weight: bold;
+	text-decoration: none;
+}
+nav a:hover {
+	color: #202020;
+}
+
+#content {
+	position: relative;
+	top: 100px;
+	padding: 20px;
+	margin: 0 auto;
+}
+.post {
+	padding: 10px;
+}
+footer {
+	position: fixed;
+	bottom: 10px;
+	font-weight: bold;
+	font-size: 0.75em;
+	color: #202020;
+}
