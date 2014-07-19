@@ -36,9 +36,16 @@ nav a:hover {
 .post {
 	background-color: #151515;
 	padding: 10px;
+	z-index: 9;
+	width: 300px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-khtml-border-radius: 10px;
 }
 .post hr {
 	width: 200px;
+	z-index: 10;
 }
 footer {
 	position: fixed;
