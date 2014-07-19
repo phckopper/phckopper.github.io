@@ -30,9 +30,14 @@ nav a:hover {
 	top: 100px;
 	padding: 20px;
 	margin: 0 auto;
+	width: 50%;
+	background-color: #121212;
 }
 .post {
 	padding: 10px;
+}
+.post hr {
+	width: 80%;
 }
 footer {
 	position: fixed;
