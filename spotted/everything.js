@@ -20,3 +20,4 @@ function sendPost(){
 	$('#text').val('');
 	$('#target').val('');
 }
+$(console.log('hi'));
