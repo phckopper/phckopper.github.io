@@ -13,6 +13,7 @@ $('#target').keypress(function (e){
 		sendPost();
 	}
 });
+$('#btnSend').click(sendPost());
 function sendPost(){
 	console.log('sendPost invoked!')
 	var text = $('#text').val();
