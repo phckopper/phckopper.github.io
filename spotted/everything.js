@@ -14,6 +14,7 @@ $('#target').keypress(function (e){
 	}
 });
 function sendPost(){
+	console.log('sendPost invoked!')
 	var text = $('#text').val();
 	var target = $('#target').val();
 	db.push({text: text, target: target});
