@@ -25,9 +25,9 @@ nav a:hover {
 	color: #202020;
 }
 
-#content {
+#content, #getInput {
 	position: relative;
-	top: 50px;
+	top: 25px;
 	padding: 20px;
 	margin: 0 auto;
 	width: 50%;
@@ -45,7 +45,7 @@ nav a:hover {
 	margin: 0 auto;
 }
 hr {
-	width: 40%;
+	width: 75%;
 }
 .post hr {
 	width: 200px;
