@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Petit+Formal+Script' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="styles.css">
+	<meta charset=utf-8>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+        <title>Manu</title>
+</head>
+<body>
+	<button onclick="toggleFullScreen()">Iniciar</button>
+	<iframe width="0" height="0" src="//www.youtube.com/embed/lAwYodrBr2Q?autoplay=1" frameborder="0" allowfullscreen></iframe>
+	<div id="wrapper">
+		<img src="/manu/images/eye.png" title="" alt="Fail">
+		<span id="title"> Manu</span>
+		<p id="first">
+			Não foi há pouco tempo que nasceram as estrelas. Na verdade, nosso sol é um bebê comparado à elas. Quando olhamos para acima 
+			à noite, vemos as estrelas como eram há milhares de anos atrás. Mesmo assim, essa atividade nos fascina. Afinal, fomos criados em uma delas.
+			Há bilhões de anos, uma estrela explodiu. Não sabemos qual, nem nunca saberemos. De qualquer forma, foi dela que viemos, afinal, 
+			cada átomo, molécula presente em nosso corpo foi formado em uma estrela. Ao olharmos para cima, estamos olhando para nossas origens.
+		</p>
+		<img src="/manu/images/palebluedot.jpg" title="Pale Blue Dot" alt="Fail" id="pbd">
+		<p id="second">
+			Mas, ao mesmo tempo, ao olharmos para cima também notamos a imensidão do universo e contemplamos o passado e as distâncias infinitas
+			que, no final, só acabam por ressaltar o óbvio. Somos minúsculos, únicos e sozinhos. Afixionados pelo poder e pela glória, às vezes
+			esquecemos que, no final, nossa vida não passa de um momento efêmero na história do Universo.
+		</p>
+		<img id="ss" src="/manu/images/spaceshuttle.jpeg" title="Liftoff" alt="Fail">
+		<p id="third">
+			Às vezes, incontentes com nossa posição no Universo, tentamos parecer grandes, sem perceber que isso, na verdade, só mostra o quão 
+			pequenos somos.
+		</p>
+		<img src="/manu/images/loneliness.png" title="Loneliness" alt="Fail">
+		<p id="fourth">
+			Na verdade, sinto muito mais fascínio do que medo por essa percepção de tamanho e efemeridade. Para mim, ela só nos mostra como 
+			devemos cuidar e amar ao próximo e, principalmente, de si mesmos. Não estamos sozinhos, temos um ao outro, não só como etnias, povos 
+			ou times de futebol, e sim como humanos, habitantes do único refúgio de vida que conhecemos.
+		</p>
+		<img src="/manu/images/desert.png" title="Found you" alt="Fail">
+		<p id="fifth">
+			Porém, às vezes, mesmo nessa imensidão do Universo, conseguimos encontrar uma pessoa. Apenas uma, pois se for a certa uma será o suficiente.
+			Será aquela pessoa que não apenas entende, mas ouve. Aquela pessoa em que, dentre as sete bilhões de pessoas do mundo, será a gurdiã dos 
+			mais íntimos segredos e dos mais sinceros pensamentos. Aquela pessoa que, pra mim, se chama Manu. Não "Aquela Manu", mas, simplesmente, 
+			"manu". 
+		</p>
+		
+		<p id="final">
+			Manu, </br />
+			quero que tu apenas saiba que dentre o universo te escolhi para amar. Por que exaramente te escolhi? Não sei. Provavelmente pelo jeito alegre e carismático.
+			Talvez, pelo teu modo engraçado de conversar. Não sei, sinceramente não sei. Talvez tenha sido apenas uma coincidência do acaso, 
+			uma manifestação espetacular da entropia. Se bem que, na verdade, tenho noção sim. Sei bem porque te amo.<br>
+			Porque tu torna meus momentos efêmeros em uma eternidade.
+		</p>
+		<p id="sagan">
+			"Somewhere, something incredible is waiting to be known."<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Carl Sagan
+		</p>
+		<p id="signature">
+			Pedro Henrique Kopper,&nbsp; junho de 2014
+			</p>	 
+	</div>
+	<script>function toggleFullScreen() {
+  var doc = window.document;
+  var docEl = doc.documentElement;
+
+  var requestFullScreen = docEl.requestFullscreen || docEl.mozRequestFullScreen || docEl.webkitRequestFullScreen || docEl.msRequestFullscreen;
+  var cancelFullScreen = doc.exitFullscreen || doc.mozCancelFullScreen || doc.webkitExitFullscreen || doc.msExitFullscreen;
+
+  if(!doc.fullscreenElement && !doc.mozFullScreenElement && !doc.webkitFullscreenElement && !doc.msFullscreenElement) {
+    requestFullScreen.call(docEl);
+  }
+  else {
+    cancelFullScreen.call(doc);
+  }
+}
+</script>
+</body>
+</html>
