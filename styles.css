@@ -5,7 +5,7 @@ body {
 	color: #F5F5F5;
 }
 #title {
-	margin: 130px;
+	margin-top: 120px;
 	color: #202020;
 	font-size: 4em;
 	font-weight: bold;
@@ -28,6 +28,8 @@ nav a:hover {
 #content {
 	position: relative;
 	top: 100px;
+	padding-right: 50px;
+	padding-left: 50px;
 }
 footer {
 	position: fixed;
