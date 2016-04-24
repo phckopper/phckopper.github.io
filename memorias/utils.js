@@ -47,7 +47,7 @@ var generatemmap = function(size, type) {
 		console.log(step);
 		
 		while(i < Math.PI * 2) {
-			mmap.push(Math.round(Math.sin(i) * 128) + 128) ;
+			mmap.push(Math.round(Math.sin(i) * 127) + 128) ;
 			i += step;
 		}
 		console.log(mmap);

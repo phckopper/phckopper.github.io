@@ -107,6 +107,8 @@ var drawMemory = function(ctx, mmap, highlight) {
 	// Desenha as entradas
 	ctx.font = "bold 20px monospace";
 	ctx.fillText(toHex(highlight), marginX - busSize*2, marginY + (sizeY/2));
+	ctx.fillText("Endereço", marginX - busSize*3, marginY - busSize/2);
+	ctx.fillText("Saída", marginX + sizeX + busSize*1.5, marginY - busSize/2);
 	ctx.font = "16px monospace";
 
 	for (var i = 0; i < address.length; i++) {
@@ -130,10 +132,11 @@ var drawMemory = function(ctx, mmap, highlight) {
 
 	var y = marginY + paddingY;
 
-	var measurementSpacing = 20;
+	var measurementSpacing = 50;
 	ctx.font = "bold 20px monospace";
-	ctx.fillText(toHex(mmap[highlight]), marginX + sizeX + busSize*1.5, marginY + (sizeY/2) - 20);
-	ctx.fillText(toVolts(mmap[highlight]), marginX + sizeX + busSize*1.5, marginY + (sizeY/2) + 20);
+	ctx.fillText(toHex(mmap[highlight]), marginX + sizeX + busSize*1.5, marginY + (sizeY/2) - measurementSpacing);
+	ctx.fillText(mmap[highlight], marginX + sizeX + busSize*1.5, marginY + (sizeY/2));
+	ctx.fillText(toVolts(mmap[highlight]), marginX + sizeX + busSize*1.5, marginY + (sizeY/2) + measurementSpacing);
 	ctx.font = "16px monospace";
 
 	// Desenha as saídas
