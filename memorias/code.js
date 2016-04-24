@@ -44,7 +44,7 @@ var drawmmap = function(ctx, mmap, highlight) {
 		// Se for o caso, destaca o byte
 		if(i == highlight) {
 			//console.log('highlight');
-			ctx.font = "bold 16px monospace";
+			ctx.font = "bolder 20px monospace";
 			ctx.fillStyle = "green";
 		}
 
