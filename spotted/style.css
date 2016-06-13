@@ -7,3 +7,12 @@ html, body {
 .inputs {
 	margin: 1em;
 }
+
+a {
+	margin: 1em;
+	text-decoration: none;
+	padding: 1.5em;
+	color: white;
+	background-color: red;
+	border-radius: 1em;
+}
