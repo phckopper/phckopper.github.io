@@ -9,10 +9,9 @@ html, body {
 }
 
 a {
-	margin: 1em;
 	text-decoration: none;
-	padding: 1.5em;
+	padding: 0.5em;
 	color: white;
-	background-color: red;
-	border-radius: 1em;
+	background-color: #8c7a7a;
+	border-radius: 0.4em;
 }
