@@ -17,3 +17,14 @@ html, body {
 	font-family: 'Bungee', cursive;
 	font-size: 3em;
 }
+
+button {
+	font-size: 2em;
+	padding: 1em;
+	background-color: hsl(143, 90%, 50%);
+	color: hsl(69, 0%, 95%);
+	font-weight: bold;
+	text-decoration: none;
+	border: none;
+	border-radius: 1em;
+}
