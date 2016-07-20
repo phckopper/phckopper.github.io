@@ -9,6 +9,12 @@ function eita() {
 		    // and signed request each expire
 		    var uid = response.authResponse.userID;
 		    console.log(uid);
+
+		    FB.ui({
+			  method: 'feed',
+			  picture: 'http://vps88682.vps.ovh.ca:5000/guaxinify.jpg?img=' + encodeURI("https://graph.facebook.com/"+ uid + "/picture?type=large"),
+			  caption: '#SomosTodosGV',
+			}, function(response){});
 		  }
 		})
 	})
