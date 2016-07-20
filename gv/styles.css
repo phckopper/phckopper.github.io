@@ -1,0 +1,19 @@
+html, body {
+	margin: 0;
+
+	background-color: hsl(126, 0%, 10%);
+	color: hsl(69, 0%, 95%);
+
+	text-align: center;
+	line-height: 1.5em;
+	font-size: 1.25em;
+
+	font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+.title {
+	color: hsl(143, 90%, 50%);
+	
+	font-family: 'Bungee', cursive;
+	font-size: 3em;
+}
