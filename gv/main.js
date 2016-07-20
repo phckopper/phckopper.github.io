@@ -10,7 +10,7 @@ function eita() {
 		    var uid = response.authResponse.userID;
 		    console.log(uid);
 
-		    var url = 'http://vps88682.vps.ovh.ca:5000/guaxinify.jpg?img=' + encodeURI("https://graph.facebook.com/"+ uid + "/picture?width=9999&height=9999");
+		    var url = 'http://vps88682.vps.ovh.ca:5000/guaxinify.jpg?img=' + encodeURI("https://graph.facebook.com/"+ uid + "/picture?width=960&height=960");
 		    
 		    document.getElementById("img").src = url;
 
