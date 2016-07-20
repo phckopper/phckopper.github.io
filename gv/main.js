@@ -17,6 +17,7 @@ function eita() {
 		    FB.ui({
 			  method: 'feed',
 			  picture: url,
+			  link: 'https://phckopper.github.io/gv',
 			  caption: '#SomosTodosGV',
 			}, function(response){});
 		  }
