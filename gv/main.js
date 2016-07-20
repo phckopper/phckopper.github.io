@@ -10,9 +10,13 @@ function eita() {
 		    var uid = response.authResponse.userID;
 		    console.log(uid);
 
+		    var url = 'http://vps88682.vps.ovh.ca:5000/guaxinify.jpg?img=' + encodeURI("https://graph.facebook.com/"+ uid + "/picture?type=large");
+		    
+		    document.getElementById("img").src = url;
+
 		    FB.ui({
 			  method: 'feed',
-			  picture: 'http://vps88682.vps.ovh.ca:5000/guaxinify.jpg?img=' + encodeURI("https://graph.facebook.com/"+ uid + "/picture?type=large"),
+			  picture: url,
 			  caption: '#SomosTodosGV',
 			}, function(response){});
 		  }
