@@ -10,5 +10,6 @@ function eita() {
 		    var uid = response.authResponse.userID;
 		    console.log(uid);
 		  }
+		})
 	})
 }
