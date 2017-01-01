@@ -1,0 +1,21 @@
+# Site settings
+title: "Meu blogzinho"
+author: "Pedro Henrique Kopper"
+description: "Posts intermitentes sobre o que vier na cabeça"
+keywords: "Software Engineering, Programming, Electrical Engineering, Engenharia, Engenharia Eletrônica, Programação, Eletrônica, Software"
+biography: "Estudante de eletrônica na <a href='http://liberato.com.br/'>Fundação Liberato</a>. Entusiasta de sistemas embarcados e pesquisa."
+colophon: "© 2017 por Pedro Henrique Kopper.<br>Conteúdo disponível sob licensa <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>Creative Commons (BY-NC-SA)</a> exceto onde notado o contrário.<br>Este site é hospedado utilizando <a href='https://pages.github.com/'>Github Pages</a> e desenvolvido usando <a href='http://jekyllrb.com/'>Jekyll</a>."
+
+baseurl: ""
+url: "https://kopper.space"
+
+twitter_username: phckopper
+github_username: phckopper
+linkedin_username: phckopper
+facebook_username: phckopper
+google-analytics: UA-49241103-5
+
+simple_search: http://google.com/search
+markdown: kramdown
+highlighter: rouge
+permalink: /blog/:year/:month/:day/:title/
