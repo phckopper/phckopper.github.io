@@ -1,0 +1,17 @@
+html, body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1.25em;
+	text-align: center;
+}
+
+.inputs {
+	margin: 1em;
+}
+
+a {
+	text-decoration: none;
+	padding: 0.5em;
+	color: white;
+	background-color: #8c7a7a;
+	border-radius: 0.4em;
+}
