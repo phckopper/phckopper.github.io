@@ -121,15 +121,6 @@ joystickLeft.on('end', function(evt, data) {
             exWrite('reset');
         }, 100);
     }
-
-    if(printPosition) {
-
-        // Debug
-        select('#debug-throttleLeft').innerHTML = '<b>Throttle</b>: 0';
-        select('#debug-yawLeft').innerHTML = '<b>Yaw</b>: 0';
-
-        reapplyLeft('.collection_0 > .front');
-    }
 }).on('move', function(evt, data) {
 
     // Executes on every new touch event from joystick
