@@ -214,12 +214,6 @@ joystickLeft.on('end', function(evt, data) {
         exWrite();
     }
 
-    // Debug
-    if(printPosition) {
-        select('#debug-throttleLeft').innerHTML = '<b>Throttle</b>: ' + throttle.toFixed(0) + '%';
-        select('#debug-yawLeft').innerHTML = '<b>Yaw</b>: ' + parseInt(100 * yaw / 255) + '% ' + yawDir;
-        //console.log(data);
-    }
 })
 
 /** Joystick right  **/
