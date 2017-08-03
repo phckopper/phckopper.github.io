@@ -17,6 +17,7 @@ var rxChar;
 var txContent;
 var txCharVal       = new Uint8Array(20);
 var rxCharVal       = new Uint8Array(20);
+var exCharVal       = new Uint8Array(20);
 var prevRxValue     = new Uint8Array(20);
 var writePermission = true;
 
