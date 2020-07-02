@@ -1,18 +1,14 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hello!
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I'm a Computer Engineering student at UFRGS (Federal University of Rio Grande do Sul), in Porto Alegre, Brazil. I'm also an amateur radio operator with the callsign PY3PK.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+### Contact info
 
-
-[jekyll-organization]: https://github.com/jekyll
+I'm reachable via personal email at pedrohkopper(at)gmail.com.
+I'm also reachable via institutional email at phckopper(at)inf.ufrgs.br
