@@ -1,5 +1,5 @@
 # Site settings
-title: "Meu blogzinho"
+title: "Pedro's ramblings"
 author: "Pedro Henrique Kopper"
 description: "Posts intermitentes sobre o que vier na cabeça"
 keywords: "Software Engineering, Programming, Electrical Engineering, Engenharia, Engenharia Eletrônica, Programação, Eletrônica, Software"
@@ -7,7 +7,7 @@ biography: "Estudante de eletrônica na <a href='http://liberato.com.br/'>Funda�
 colophon: "© 2019 por Pedro Henrique Kopper.<br>Conteúdo disponível sob licensa <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>Creative Commons (BY-NC-SA)</a> exceto onde notado o contrário.<br>Este site é hospedado utilizando <a href='https://pages.github.com/'>Github Pages</a> e desenvolvido usando <a href='http://jekyllrb.com/'>Jekyll</a>."
 
 baseurl: ""
-url: "https://kopper.space"
+url: "https://kopper.gpio.pub"
 
 twitter_username: phckopper
 github_username: phckopper
