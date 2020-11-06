@@ -8,8 +8,6 @@ title: About
 # MIT License
 ---
 
-> **Note**: Add Markdown syntax content to file `tabs/about.md` and it will show up on this page.
-
 Oi! Eu sou o Pedro, estudante de Engenharia da Computação na [UFRGS](https://ufrgs.br). Também sou formado Técnico em Eletrônica pela [Fundação Liberato](http://liberato.com.br).
 Atualmente, sou bolsista de iniciação científica no Laboratório de Sistemas Embarcados da UFRGS, trabalhando com tolerância à falhas 
 e computação aproximativa.
