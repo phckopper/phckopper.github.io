@@ -19,6 +19,9 @@ layout: compress
   {% if site.theme_mode != "dual" %}
     mode="{{ site.theme_mode }}"
   {% endif %}
+  {% if site.theme_mode == "dual" %}
+    mode="dark"
+  {% endif %}
 {% endcapture %}
 
 <html lang="{{ lang }}" {{ prefer_mode }} >
